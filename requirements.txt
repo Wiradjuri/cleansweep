@@ -1,0 +1,11 @@
+psutil
+hashlib
+subprocess
+os
+platform
+shutil
+tempfile
+requests
+schedule
+colorama
+click

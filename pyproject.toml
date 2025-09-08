@@ -1,0 +1,39 @@
+[tool]
+name = "CleanSweep"
+version = "0.1.0"
+description = "A system cleaner application inspired by CCleaner Pro."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+    "psutil",
+    "hashlib",
+    "subprocess",
+    "click",
+    "colorama"
+]
+
+[tool.poetry]
+name = "cleansweep"
+version = "0.1.0"
+description = "A system cleaner application inspired by CCleaner Pro."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+    "psutil",
+    "hashlib",
+    "subprocess",
+    "click",
+    "colorama"
+]
